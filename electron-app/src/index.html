@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'" /> -->
+    <title>Hello, World</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-bar">
+        <div class="title prevent-select draggable">Electron App</div>
+        <div class="control prevent-select">
+          <button id="min"><i class="fa fa-window-minimize"></i></button>
+          <button id="max"><i class="fa fa-window-maximize"></i></button>
+          <button id="close"><i class="fa fa-window-close"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <nav class="main-menu">
+      <div class="scrollbar" id="style-1">
+        <ul>
+          <li>
+            <a href="http://startific.com">
+              <i class="fa fa-home fa-lg"></i>
+              <span class="nav-text">Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="http://startific.com">
+              <i class="fa fa-user fa-lg"></i>
+              <span class="nav-text">Login</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <script src="function.js"></script>
+  </body>
+</html>
